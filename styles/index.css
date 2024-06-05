@@ -17,7 +17,7 @@ html,body{
     overflow-x: hidden;
 }
 body{
-    /* background-image: linear-gradient(to bottom right, pink, white, pink); */
+    background-image: linear-gradient(to bottom right, pink, white, pink);
 }
 
 
@@ -32,4 +32,10 @@ body{
 #divHomeWallpaper{
     width: fit-content;
     height: fit-content;
+}
+
+/* footer */
+i{
+    margin: 0;
+    
 }
