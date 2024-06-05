@@ -1,7 +1,22 @@
+/* fonts */
+/* great vibes*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* Cinzel Decorative */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+/* Courgette */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* Uncial Antiqua */
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+
+
 /* body */
+html,body{
+    margin: 0;
+    padding: 0;
+}
 body{
     /* background-image: linear-gradient(to bottom right, pink, white, pink); */
-
 }
 
 
