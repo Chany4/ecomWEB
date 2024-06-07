@@ -18,24 +18,39 @@ html,body{
 }
 body{
     background-image: linear-gradient(to bottom right, pink, white, pink);
+    background-repeat: no-repeat;
 }
 
 
 /* nav bar */
 [class="navbar navbar-expand-lg"]{
-    background-color: #ff5e7920;
+    background-color: pink;
     height: 6%;
 }
 
 /* Home wallpaper*/
 
-#divHomeWallpaper{
-    width: fit-content;
+#homeWall {
     height: fit-content;
+    margin: 0;
+    padding: 0;
+    width: 100 vh;
+     /* 100% of the viewport width */
+    background-image: url('/images/pexels-eberhardgross-2217366.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-/* footer */
-i{
-    margin: 0;
-    
+#homeWallpaper {
+    height: fit-content;
+    width: fit-content;
+    background-size: cover;
+    background-position: center;
 }
+
+
+
+
+
+/* footer */
+
