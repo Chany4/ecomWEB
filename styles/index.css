@@ -48,8 +48,24 @@ body{
     background-position: center;
 }
 
+/* carousel item */
 
+.bags .carousel-inner .carousel-item active {
+    height: 550px;
+  }
 
+  .bags .carousel-inner img {
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .bags .carousel-inner .carousel-caption {
+    background-color: white;
+    border-radius: 20px;
+    color: #ff70b5;
+    font-weight: bold;
+    margin: -200px;
+  }
 
 
 /* footer */
