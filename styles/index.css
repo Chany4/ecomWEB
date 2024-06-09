@@ -36,7 +36,7 @@ body{
     padding: 0;
     width: 100 vh;
      /* 100% of the viewport width */
-    background-image: url('/images/pexels-eberhardgross-2217366.jpg');
+    background-image: url('https://chany4.github.io/ecomWEB/images/pexels-eberhardgross-2217366.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -50,23 +50,10 @@ body{
 
 /* carousel item */
 
-.bags .carousel-inner .carousel-item active {
-    height: 550px;
-  }
-
-  .bags .carousel-inner img {
-    height: 300px;
-    margin: 0 auto;
-  }
-
-  .bags .carousel-inner .carousel-caption {
-    background-color: white;
-    border-radius: 20px;
-    color: #ff70b5;
-    font-weight: bold;
-    margin: -200px;
-  }
-
+[id="Carousel-and-something"] > [id="carouselExampleIndicators"]{
+  width: 300px;
+  height: auto;
+}
 
 /* footer */
 
