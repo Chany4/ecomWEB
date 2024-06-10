@@ -55,5 +55,10 @@ body{
   height: auto;
 }
 
+#carouselExampleIndicators{
+    background-size: contain;
+}
+
 /* footer */
+
 
